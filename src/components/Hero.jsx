@@ -58,7 +58,7 @@ const Hero = () => {
                     initial={{x:100, opacity: 0}}
                     animate={{x: 0, opacity: 1}}
                     transition={{ duration: 3}}
-                    src="src/assets/AtharvaProfile.jpg"
+                    src="src/assets/hero.jpg"
                     alt="hero"
                     width={450}
                     height={450}
