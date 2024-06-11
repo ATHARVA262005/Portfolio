@@ -57,14 +57,18 @@ export const FETUREDPROJECTS = [
     image: project1,
     description:
       "Designed and developed a full-stack photography website as a freelancer for a client, ensuring a visually appealing and user-friendly interface.Implemented dynamic content features using React, enhancing the website's responsiveness and interactivity.Integrated backend services to handle photo uploads, galleries, and user interactions, providing a seamless user experience.",
-    technologies: ["HTML", "CSS", "React", "Node.js","Express.js","MongoDB"],
+    technologies: ["HTML", "CSS", "React"],
+    liveDemoLink: "https://photographybrand.netlify.app",
+    githubLink: "https://github.com/ATHARVA262005/PhotoGraphy-Brand-Website-using-React",
   },
   {
     title: "Pure Calm Mental Health Therapy Website",
     image: project2,
     description:
       "Designed and developed a website to provide therapy for mental health using React.Integrated Spotify for music therapy and various animations, resulting in a 25% increasein user engagement.",
-    technologies: ["HTML", "CSS", "React","React-Bootstrap", "Firebase"],
+    technologies: ["HTML", "CSS", "React","React-Bootstrap"],
+    liveDemoLink: "https://purecalm.netlify.app/",
+    githubLink: "https://github.com/ATHARVA262005/PureCalm",
   },
 ];
 
@@ -74,14 +78,18 @@ export const PROJECTS = [
     image: project1,
     description:
       "Designed and developed a full-stack photography website as a freelancer for a client, ensuring a visually appealing and user-friendly interface.Implemented dynamic content features using React, enhancing the website's responsiveness and interactivity.Integrated backend services to handle photo uploads, galleries, and user interactions, providing a seamless user experience.",
-    technologies: ["HTML", "CSS", "React", "Node.js","Express.js","MongoDB"],
+    technologies: ["HTML", "CSS", "React"],
+    liveDemoLink: "https://photographybrand.netlify.app",
+    githubLink: "https://github.com/ATHARVA262005/PhotoGraphy-Brand-Website-using-React",
   },
   {
     title: "Pure Calm Mental Health Therapy Website",
     image: project2,
     description:
       "Designed and developed a website to provide therapy for mental health using React.Integrated Spotify for music therapy and various animations, resulting in a 25% increasein user engagement.",
-    technologies: ["HTML", "CSS", "React","React-Bootstrap", "Firebase"],
+    technologies: ["HTML", "CSS", "React","React-Bootstrap"],
+    liveDemoLink: "https://purecalm.netlify.app/",
+    githubLink: "https://github.com/ATHARVA262005/PureCalm",
   },
 ];
 
