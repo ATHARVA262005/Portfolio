@@ -1,6 +1,5 @@
 import ErrorTv from '../components/ErrorTv';
 import Navbar from '../components/Navbar';
-import Social from '../components/Social';
 import { Helmet } from 'react-helmet-async';
 
 const Error404 = () => {
