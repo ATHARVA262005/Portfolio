@@ -31,7 +31,7 @@ const Experiences = () => {
                             <span className="text-sm text-purple-100">{experience.company}</span>
                         </h6>
                         <p className="mb-4 text-neutral-400">{experience.description}</p>
-                        <div className="expTags">
+                        <div className="flex mb-4 flex-wrap">
                         {experience.technologies.map((tech , index) => (
                             <span key={index} className="mr-5 hover:text-purple-900 mt-4 rounded bg-neutral-900 px-2 py-1 font-medium text-purple-500 text-sm">{tech}</span>
                         ))}
