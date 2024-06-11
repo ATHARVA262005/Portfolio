@@ -2,6 +2,7 @@ import { HERO_CONTENT} from "../constants";
 import { motion } from "framer-motion";
 import { Link } from "react-router-dom";
 import Button from "./Button";
+import HeroImg from "../assets/hero.jpg";
 
 const container = (delay) => ({
     hidden: { x:-100, opacity: 0 },
@@ -58,7 +59,7 @@ const Hero = () => {
                     initial={{x:100, opacity: 0}}
                     animate={{x: 0, opacity: 1}}
                     transition={{ duration: 3}}
-                    src="src/assets/hero.jpg"
+                    src={HeroImg}
                     alt="hero"
                     width={450}
                     height={450}
