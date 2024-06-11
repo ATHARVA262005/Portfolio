@@ -1,11 +1,24 @@
 /* eslint-disable react/no-unknown-property */
 import { Link } from "react-router-dom"
 import Button from "./Button"
+import { motion } from "framer-motion"
+
+const container = (delay) => ({
+  hidden: { y:-100, opacity: 0 },
+  visible: {
+      y:0,
+      opacity: 1,
+      transition: {
+          delay: delay,
+          duration: 1
+      }
+  }
+})
 
 const ErrorTv = () => {
   return (
     <div>
-      <div className="flex flex-row flex-wrap">
+      <div className="flex flex-row flex-wrap ">
 
           <div className="tv_wrapper">
             <div className="tv">
@@ -73,9 +86,16 @@ const ErrorTv = () => {
               <div className="text_4043">4</div>
             </div>
           </div>
-      <div className="textErrorPage flex flex-col justify-center text-center">
+      <div className="flex flex-col justify-center text-center">
+        <motion.div
+         variants={container(0)}
+         initial="hidden"
+         animate="visible"
+         transition={{ease: "easeIn"}}
+         className="txt">
         <h1>Oops! Page not found</h1>
         <p>Sorry, the page you are looking for might have been removed or is temporarily unavailable.</p>
+        </motion.div>
         <Link to="/">
           <Button label="Back to Home" />
         </Link>
