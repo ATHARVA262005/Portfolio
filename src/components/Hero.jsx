@@ -47,7 +47,7 @@ const Hero = () => {
                         {HERO_CONTENT}
                     </motion.p>
                     <div className="flex flex-row ">
-                    <Link to={"https://drive.google.com/file/d/1eSBJva5TEHEtyriNz3UVbUdqixN5S-xu/view?usp=sharing"} target="_blank" >
+                    <Link to={"https://drive.google.com/file/d/1CPZKdUTWc43Kfx31NjSftC9xtFkDloDx/view?usp=sharing"} target="_blank" >
                         <Button label="My Resume"/>
                     </Link>
                     </div>
