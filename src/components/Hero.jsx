@@ -2,7 +2,7 @@ import { HERO_CONTENT} from "../constants";
 import { motion } from "framer-motion";
 import { Link } from "react-router-dom";
 import Button from "./Button";
-import HeroImg from "../assets/hero.jpg";
+import HeroImg from "../assets/atharva_hero.png";
 
 const container = (delay) => ({
     hidden: { x:-100, opacity: 0 },
