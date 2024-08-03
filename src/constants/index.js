@@ -1,5 +1,6 @@
-import project1 from "../assets/projects/project-1.png";
-import project2 from "../assets/projects/project-2.png";
+import imgPhotography from "../assets/projects/project-photography.png";
+import imgPurecalm from "../assets/projects/project-purecalm.png";
+import imgAquasustain from "../assets/projects/project-aquasustain.png";
 
 export const HERO_CONTENT = `Aspiring Full Stack Web Developer with a strong foundation in HTML, CSS, JavaScript, and React. 
 Passionate about building user-centric web applications and continuously learning new technologies. 
@@ -53,29 +54,29 @@ reducing bugs by 20%`,
 
 export const FETUREDPROJECTS = [
   {
+    title: "AquaSustain Website - SDG 14 LIFE BELOW WATER ",
+    image: imgAquasustain,
+    description:
+      "Developed a visually stunning website for AquaSustain, featuring a beautiful welcome banner that uses an eye-catching color palette inspired by the ocean. The layout is meticulously designed to provide an exceptional user experience, guiding visitors through a virtual journey from a serene beach to the vibrant depths of the ocean. The site includes interactive infographics, and sections showcasing vibrant coral reefs and diverse marine life. Additionally, the website offers educational resources, volunteer opportunities, and real-time data on marine conservation efforts, making it a comprehensive platform for ocean enthusiasts.",
+    technologies: ["HTML", "CSS", "React","Tailwind CSS","Framer Motion"],
+    liveDemoLink: "https://aqua-sustain.vercel.app",
+    githubLink: "https://github.com/ATHARVA262005/AquaSustain",
+  },
+  {
     title: "Full-Stack Photography Website",
-    image: project1,
+    image: imgPhotography,
     description:
       "Designed and developed a full-stack photography website as a freelancer for a client, ensuring a visually appealing and user-friendly interface.Implemented dynamic content features using React, enhancing the website's responsiveness and interactivity.Integrated backend services to handle photo uploads, galleries, and user interactions, providing a seamless user experience.",
     technologies: ["HTML", "CSS", "React"],
     liveDemoLink: "https://photographybrand.netlify.app",
     githubLink: "https://github.com/ATHARVA262005/PhotoGraphy-Brand-Website-using-React",
-  },
-  {
-    title: "Pure Calm Mental Health Therapy Website",
-    image: project2,
-    description:
-      "Designed and developed a website to provide therapy for mental health using React.Integrated Spotify for music therapy and various animations, resulting in a 25% increasein user engagement.",
-    technologies: ["HTML", "CSS", "React","React-Bootstrap"],
-    liveDemoLink: "https://purecalm.netlify.app/",
-    githubLink: "https://github.com/ATHARVA262005/PureCalm",
   },
 ];
 
 export const PROJECTS = [
   {
     title: "Full-Stack Photography Website",
-    image: project1,
+    image: imgPhotography,
     description:
       "Designed and developed a full-stack photography website as a freelancer for a client, ensuring a visually appealing and user-friendly interface.Implemented dynamic content features using React, enhancing the website's responsiveness and interactivity.Integrated backend services to handle photo uploads, galleries, and user interactions, providing a seamless user experience.",
     technologies: ["HTML", "CSS", "React"],
@@ -84,12 +85,21 @@ export const PROJECTS = [
   },
   {
     title: "Pure Calm Mental Health Therapy Website",
-    image: project2,
+    image: imgPurecalm,
     description:
       "Designed and developed a website to provide therapy for mental health using React.Integrated Spotify for music therapy and various animations, resulting in a 25% increasein user engagement.",
     technologies: ["HTML", "CSS", "React","React-Bootstrap"],
     liveDemoLink: "https://purecalm.netlify.app/",
     githubLink: "https://github.com/ATHARVA262005/PureCalm",
+  },
+  {
+    title: "AquaSustain Website - SDG 14 LIFE BELOW WATER ",
+    image: imgAquasustain,
+    description:
+      "Developed a visually stunning website for AquaSustain, featuring a beautiful welcome banner that uses an eye-catching color palette inspired by the ocean. The layout is meticulously designed to provide an exceptional user experience, guiding visitors through a virtual journey from a serene beach to the vibrant depths of the ocean. The site includes interactive infographics, and sections showcasing vibrant coral reefs and diverse marine life. Additionally, the website offers educational resources, volunteer opportunities, and real-time data on marine conservation efforts, making it a comprehensive platform for ocean enthusiasts.",
+    technologies: ["HTML", "CSS", "React","Tailwind CSS","Framer Motion"],
+    liveDemoLink: "https://aqua-sustain.vercel.app",
+    githubLink: "https://github.com/ATHARVA262005/AquaSustain",
   },
 ];
 
