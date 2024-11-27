@@ -6,7 +6,7 @@ import { Helmet } from 'react-helmet-async';
 const Projects = () => {
   return (<>
   <Helmet>
-            <title>Web Development Projects by Atharva Ralegankar</title>
+            <title>Projects by Atharva Ralegankar</title>
             <meta name="description" content="Explore a diverse range of web development projects by Atharva Ralegankar, a full stack developer specializing in modern technologies such as React, Node.js, and MongoDB." data-rh="true" />
             <link rel="canonical" href="/projects" />
         </Helmet>
